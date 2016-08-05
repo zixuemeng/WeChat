@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WeChat</string>
+
+    <string name="message">Message</string>
+    <string name="contact">Contact</string>
+    <string name="find">Find</string>
+    <string name="me">Me</string>
+
+    <string name="actionbar_search">Search</string>
+    <string name="actionbar_plus">Function</string>
+    <string name="menu_group_chat">Chat</string>
+    <string name="menu_add_friend">Add friend</string>
+    <string name="menu_scan">Scan</string>
+    
+    <string name="fragment_no_message">No message</string>
+    <string name="fragment_contact_search">Search</string>
+</resources>

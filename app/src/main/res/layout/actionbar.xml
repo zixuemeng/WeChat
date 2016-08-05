@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#ff232325">
+
+    <ImageView
+        android:id="@+id/backImg"
+        android:layout_width="40dp"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/icon_back"/>
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_discovery_pengyouquan"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/rightImg"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/icon_talk"/>
+
+    <Button
+        android:id="@+id/rightBtn"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="#ff228b22"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:text="发送"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+</RelativeLayout>

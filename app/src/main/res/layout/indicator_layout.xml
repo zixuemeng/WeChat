@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itv="http://schemas.android.com/apk/res/com.joany.wechat"
+    android:id="@+id/container"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center">
+
+    <com.joany.wechat.view.IconTextView
+        android:id="@+id/msgItv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        itv:text="@string/message"
+        itv:normalIcon="@mipmap/message_normal"
+        itv:pressedIcon="@mipmap/message_pressed"/>
+
+    <com.joany.wechat.view.IconTextView
+        android:id="@+id/contactItv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        itv:text="@string/contact"
+        itv:normalIcon="@mipmap/contact_normal"
+        itv:pressedIcon="@mipmap/contact_pressed"/>
+
+    <com.joany.wechat.view.IconTextView
+        android:id="@+id/findItv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        itv:text="@string/find"
+        itv:normalIcon="@mipmap/find_normal"
+        itv:pressedIcon="@mipmap/find_pressed"/>
+
+    <com.joany.wechat.view.IconTextView
+        android:id="@+id/profileItv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        itv:text="@string/me"
+        itv:normalIcon="@mipmap/profile_normal"
+        itv:pressedIcon="@mipmap/profile_pressed"/>
+
+</LinearLayout>

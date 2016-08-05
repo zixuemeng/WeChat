@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    使用了insetdrawable，将一个drawable嵌入到另外一个drawable内部，并且在内部留一些间距
+    -->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:divider="@drawable/divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/listview_item_selector">
+    </ListView>
+
+    <com.joany.wechat.view.SideBar
+        android:id="@+id/sideBar"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="right|center"/>
+</FrameLayout>

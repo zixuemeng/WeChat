@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tabIndicatorIcon">
+        <item>@mipmap/message_normal</item>
+        <item>@mipmap/contact_normal</item>
+        <item>@mipmap/find_normal</item>
+        <item>@mipmap/profile_normal</item>
+    </array>
+
+    <array name="tabIndicatorIconPressed">
+        <item>@mipmap/message_pressed</item>
+        <item>@mipmap/contact_pressed</item>
+        <item>@mipmap/find_pressed</item>
+        <item>@mipmap/profile_pressed</item>
+    </array>
+</resources>

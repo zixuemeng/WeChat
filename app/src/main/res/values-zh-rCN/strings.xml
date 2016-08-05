@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">微信</string>
+
+    <string name="message">消息</string>
+    <string name="contact">通讯录</string>
+    <string name="find">发现</string>
+    <string name="me">我</string>
+
+    <string name="actionbar_search">搜索</string>
+    <string name="actionbar_plus">功能</string>
+    <string name="menu_group_chat">群聊</string>
+    <string name="menu_add_friend">添加朋友</string>
+    <string name="menu_scan">扫一扫</string>
+
+    <string name="fragment_no_message">暂时没有新消息</string>
+    <string name="fragment_contact_search">搜索</string>
+    <string name="fragment_contact_add_friend">新的朋友</string>
+    <string name="fragment_contact_group_chat">群聊</string>
+    <string name="fragment_contact_subscriber">公众号</string>
+
+    <string name="fragment_discovery_pengyouquan">朋友圈</string>
+    <string name="fragment_discovery_scan">扫一扫</string>
+    <string name="fragment_discovery_yao">摇一摇</string>
+    <string name="fragment_discovery_nearby">附近的人</string>
+    <string name="fragment_discovery_shop">购物</string>
+    <string name="fragment_discovery_game">游戏</string>
+</resources>
